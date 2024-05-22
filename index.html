@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecological Literacy Quiz</title>
+    <style>
+        body {
+            background-color: #f8d7da;
+            color: #721c24;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .container {
+            margin: auto;
+            width: 80%;
+            padding: 20px;
+            border: 2px solid #f5c6cb;
+            background-color: #f1b0b7;
+            border-radius: 10px;
+        }
+        .glitch {
+            font-size: 2em;
+            color: #721c24;
+            position: relative;
+            animation: glitch-animation 1s infinite;
+        }
+        @keyframes glitch-animation {
+            0% { left: 0; }
+            20% { left: 2px; }
+            40% { left: -2px; }
+            60% { left: 2px; }
+            80% { left: -2px; }
+            100% { left: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="glitch">We Got You hehehe</h1>
+        <p>It's a prank, you did a great job! you can check your score, Congratulations! </p>
+    </div>
+    <script>
+        setTimeout(() => {
+            alert("Just kidding! Everything is fine. Enjoy your day! 😄");
+        }, 5000);
+    </script>
+</body>
+</html>
